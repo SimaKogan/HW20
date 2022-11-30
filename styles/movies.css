@@ -1,0 +1,38 @@
+body, html {
+    height: 100%;
+   }
+   
+   body {
+       overflow-y: hidden;
+       margin: 0;
+   }
+   .movies-list {
+       display: flex;
+       flex-direction: column;
+       list-style: none;
+       overflow-y: auto;
+       max-height: 100vh;
+   }
+   .movie-item {
+       display: flex;
+       flex-direction: row;
+       margin-bottom: 5vh;
+   }
+   .movie-image {
+   }
+   .subsection {
+       display: flex;
+       flex-direction: column;
+       margin-left: 7vw;
+       
+   }
+   .movie-title {
+       font-size: 2em;
+       font-weight: bold;
+       margin-bottom: 12vh;
+   }
+   .movie-description {
+       flex-wrap: nowrap;
+       font-size: 1.3em;
+       width: 45vw;
+       }
